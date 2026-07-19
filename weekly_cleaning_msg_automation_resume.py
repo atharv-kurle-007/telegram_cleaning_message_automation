@@ -12,7 +12,7 @@ current_day = now.strftime("%A")
 current_time = now.time()
 
 # get excel table
-df = pd.read_excel(r"C:\Users\Shree\Desktop\PYTHON\AUTOMATION PROJECT\Airtel Espace MSC Automation\Cleaning Message Schedule Espace MSC.xlsx")
+df = pd.read_excel(r"file path")
 
 # get the matching row
 today_cleaning = df[
